@@ -1,5 +1,4 @@
-# vba_excel
-Sistema de cálculo de amostragem estatística em VBA
+# Projeto de um Sistema de cálculo de amostragem estatística em VBA para abordagens de auditoria
 # Exposição do Template
 
 Sub TelaCheia_On()
