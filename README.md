@@ -3,7 +3,7 @@ A ferramenta é explicativa e possui alguns informativos afim de que  seja garan
 
 Desbloqueio do arquivo no computador: quando você salvar o arquivo em sua máquina vá até o arquivo no diretório utilizado para que o arquivo fosse salvo (geralmente "downloads"), clique com o botão direito e  clique na caixa de diálogo onde aparece a opção "desbloquear".
 
- !images/thumbnail_image.png
+![Dashboard de KPIs](images/thumbnail_image.png)
 
 Habilitação de macros e controle activex no Excel: abra o Microsoft Excel, clique em "Arquivos", "Opções", "Central de Confiabilidade". Na sessão de Central de Confiabilidade clique em "Configurações do ActiveX" e habilite a opção, conforme tela abaixo:
 
