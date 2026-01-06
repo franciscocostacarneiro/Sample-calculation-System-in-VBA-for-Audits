@@ -7,10 +7,10 @@ Desbloqueio do arquivo no computador: quando você salvar o arquivo em sua máqu
 
 Habilitação de macros e controle activex no Excel: abra o Microsoft Excel, clique em "Arquivos", "Opções", "Central de Confiabilidade". Na sessão de Central de Confiabilidade clique em "Configurações do ActiveX" e habilite a opção, conforme tela abaixo:
 
-
+![Dashboard de KPIs](images/thumbnail_image2.png)
 
 Clique agora na opção "Configurações de macro": habilite a possibilidade de que macros sejam executadas em sua máquina, conforme tela abaixo:
 
-
+![Dashboard de KPIs](images/thumbnail_image3.png)
 
 Pronto! Agora o seu template já está habilitado para funcionar em sua máquina. 
