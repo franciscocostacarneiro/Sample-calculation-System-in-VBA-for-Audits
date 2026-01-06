@@ -1,121 +1,16 @@
 # Projeto de um Sistema de cálculo de amostragem estatística em VBA para abordagens de auditoria
-# Exposição do Template
+A ferramenta é explicativa e possui alguns informativos afim de que  seja garantido que a sua finalidade seja atingida. Entretanto, antes da tentativa de utrilização desse template é necessário que alguns ajustes no arquivo Excel e no próprio Excel. Sem esses passos os formulários e os módulos não são habilitados. Vamos a eles:
 
-Sub TelaCheia_On()
-                
-        ' Processa Macro sem evidenciar
-        
-Application.ScreenUpdating = False
-        
-        'Oculta todos os Menus (Ribbons)
-        
-        Application.ExecuteExcel4Macro "SHOW.TOOLBAR(""Ribbon"",False)"
- 
-        Application.DisplayFormulaBar = False
-        ActiveWindow.DisplayHeadings = False
- 
-        With ActiveWindow
-            .DisplayHorizontalScrollBar = False
-            .DisplayVerticalScrollBar = False
-            .DisplayWorkbookTabs = False
-            .DisplayHeadings = False
-            .DisplayZeros = False
-            .DisplayHeadings = False
-            .DisplayGridlines = False
-        End With
- 
-    End Sub
-     Sub TelaCheia_Off()
-        'Exibe todos os Menus (Ribbons)
-        
-Application.ScreenUpdating = False
-        
-        Application.ExecuteExcel4Macro "SHOW.TOOLBAR(""Ribbon"",True)"
- 
-        Application.DisplayFormulaBar = True
-        ActiveWindow.DisplayHeadings = True
- 
-        With ActiveWindow
-            .DisplayHorizontalScrollBar = True
-            .DisplayVerticalScrollBar = True
-            .DisplayWorkbookTabs = True
-            .DisplayHeadings = True
-            .DisplayZeros = True
-            .DisplayHeadings = True
-            .DisplayGridlines = True
-        End With
- 
-     End Sub
+Desbloqueio do arquivo no computador: quando você salvar o arquivo em sua máquina vá até o arquivo no diretório utilizado para que o arquivo fosse salvo (geralmente "downloads"), clique com o botão direito e  clique na caixa de diálogo onde aparece a opção "desbloquear".
 
-Private Sub Botao_Pense_nisso_Click()
+ !images/thumbnail_image.png
 
-' Aparecer a userform para definir a população
-
-Mensagem_2_Defina_a_população.Show
-End Sub
-Private Sub ComboBox1_DropButtonClick()
-
-' Lista para combobox
-
-ComboBox1.List = Array("", "0", "1", "2", "3", "4", "5", "6", "7", "8", ">8")
-End Sub
-Private Sub ComboBox2_DropButtonClick()
-
-' Lista para combobox
-
-ComboBox2.List = Array("", "Transferências de Recursos a Terceiros", "Processos Licitatórios")
-End Sub
-Private Sub ComboBox3_DropButtonClick()
-
-' Lista para combobox
-
-ComboBox3.List = Array("", "Baixo", "Médio", "Alto")
-End Sub
-Private Sub ComboBox4_DropButtonClick()
-
-' Lista para combobox
-
-ComboBox4.List = Array("", "Sistemático", "Aleatório")
-End Sub
-Private Sub ComboBox5_DropButtonClick()
-
-' Lista para combobox
-
-ComboBox5.List = Array("", "0", "1", "2", "3", "4", "5", "6", "7", "8", ">8")
-End Sub
-Private Sub ComboBox6_DropButtonClick()
-
-' Lista para combobox
-
-ComboBox6.List = Array("", "Sim", "Não")
-End Sub
-Private Sub CommandButton1_Click()
-
-' Aparecer mensagem de "Pense bem" userform
-
-Mensagem_4.Show
-End Sub
-Private Sub CommandButton2_Click()
-
-' Aparecer a mensagem 3 userform
-
-Mensagem_3_Defina_a_exceção.Show
-End Sub
-Private Sub CommandButton3_Click()
-
-' Aparacer a mensagem esclamação
-
-Mensagem_esclamação.Show
-End Sub
-Private Sub TextBox1_Change()
-
-' Caixa de texto
-
-If (Me.TextBox1 <> "") Then Me.TextBox1 = Round(Me.TextBox1)
-End Sub
-
-Private Sub TextBox2_Change()
-
-End Sub
+Habilitação de macros e controle activex no Excel: abra o Microsoft Excel, clique em "Arquivos", "Opções", "Central de Confiabilidade". Na sessão de Central de Confiabilidade clique em "Configurações do ActiveX" e habilite a opção, conforme tela abaixo:
 
 
+
+Clique agora na opção "Configurações de macro": habilite a possibilidade de que macros sejam executadas em sua máquina, conforme tela abaixo:
+
+
+
+Pronto! Agora o seu template já está habilitado para funcionar em sua máquina. 
